@@ -27,7 +27,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 	- LSTN (Keras)
 
 
-#### Data Exploration
+## Data Exploration
 The device has 2 sensors: accelerometer and gyroscope. The raw data generated from the sensor are time-series signals data of 3 axis: X, Y, Z. The data then transformed into frequency domain using fourier transform. We can do so because the time-series signal is periodic. The sensor acceleration signal, which has gravitational and body motion components.
 
 data type        	count
@@ -73,7 +73,7 @@ It is understandable that walking activies for the partcipant would exhitbit sim
 
 As for the other 3 activities, laying, standing and sitting are stationary but using different height reference to center of mass. Therefore one would see clear seperation of data due to such reason. 
 
-## Data Oberseration
+#### Data Oberservation
 
 6 Models are Evaluated to implement the Activity Classifier
 • Logistic Regression with Multinominal
